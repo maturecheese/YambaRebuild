@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">YambaTwitterApp</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="username_summary">Enter Username</string>
+    <string name="username_title">Username</string>
+    <string name="password_summary">Enter Password</string>
+    <string name="password_title">Password</string>
+    <string name="server_api_summary">Enter Server URL</string>
+    <string name="server_api_title">API</string>
+    <string name="refresh_delay_summary">Select how often to refresh</string>
+    <string name="refresh_delay_title">Refresh Rate</string>
+    <string name="connection_title">Connection</string>
+
+</resources>

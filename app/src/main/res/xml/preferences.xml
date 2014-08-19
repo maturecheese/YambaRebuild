@@ -1,0 +1,29 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="@string/connection_title">
+        <EditTextPreference
+            android:key = "username"
+            android:summary="@string/username_summary"
+            android:title="@string/username_title"/>
+        <EditTextPreference
+            android:key ="password"
+            android:summary="@string/password_summary"
+            android:title="@string/password_title"/>
+        <EditTextPreference
+            android:key ="server_api"
+            android:summary="@string/server_api_summary"
+            android:title= "@string/server_api_title"/>
+    </PreferenceCategory>
+
+    <ListPreference
+       android:key="refresh_delay"
+       android:summary="@string/refresh_delay_summary"
+       android:title ="@string/refresh_delay_title"
+       android:entries="@array/refresh_delay_entries"
+       android:entryValues="@array/refresh_delay_entryValues"
+       android:defaultValue="60"/>
+
+
+
+
+</PreferenceScreen>
